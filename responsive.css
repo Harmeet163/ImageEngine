@@ -3,9 +3,39 @@
     h1{
         text-align: center;
         font-size: 30px;
-        color: aqua;
+        
     }
-    #home-bed{
+    form{
+        width: 70%;
+        margin: auto auto -40px;
+        max-width: 700px;
+        background-color: #434989;
+        border-radius: 8px;
+        
+    }
+    form input{
+        height: 70%;
+        width: 50%;
+        background-color: transparent;
+        font-size: 13px;
+        border: 0;
+       outline: 0;
+
+    }
+    form button{
+        width: 30%;
+        height: 100%;
+        font-size: 13px;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        cursor: pointer;
+        border: 0;
+        outline: 0;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+     #home-bed{
         width: 80%;
         display: grid;
         grid-template-columns: 1fr;
@@ -17,30 +47,30 @@
         border-radius: 4px;
         object-fit: cover;
         border: 2px solid black;
-    }
+    } 
     
 }
 @media screen and (max-width:400px){
     
     form{
         width: 70%;
-        margin: auto auto 20px;
+        margin: auto auto 40px;
         max-width: 700px;
-        background: transparent;
+        background: #434989;
         border-radius: 8px;
         
     }
     form input{
         height: 70%;
         width: 50%;
-        
+        background-color: transparent;
         font-size: 13px;
         border: 0;
     outline: 0;
     }
     form button{
         width: 30%;
-        height: 70%;
+        height: 100%;
         font-size: 13px;
         border-top-right-radius: 8px;
         border-bottom-right-radius: 8px;
