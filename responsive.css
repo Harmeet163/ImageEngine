@@ -14,7 +14,7 @@
         
     }
     form input{
-        height: 70%;
+        height: 100%;
         width: 50%;
         background-color: transparent;
         font-size: 13px;
@@ -61,7 +61,7 @@
         
     }
     form input{
-        height: 70%;
+        height: 100%;
         width: 50%;
         background-color: transparent;
         font-size: 13px;
