@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
 @media screen and (max-width:900px){
     
     h1{
         text-align: center;
         font-size: 30px;
-        
+        font-family: 'Kenia', cursive;
+        font-weight: bold;
     }
     form{
         width: 70%;
@@ -51,6 +53,12 @@
     
 }
 @media screen and (max-width:400px){
+    h1{
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Kenia', cursive;
+        font-weight: bold;
+    }
     
     form{
         width: 70%;
